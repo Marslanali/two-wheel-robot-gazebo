@@ -53,6 +53,26 @@ angular:
   z: 0.1"
 ```
 
+#### Running keyboard teleop:
+The ~/catkin_ws/src/swarm_robot_teleop_keyboard/scripts folder contains the *myrobot_key* node, which is the teleop node. Then a remapping is done from the turtlebot_teleop_keyboard/cmd_vel to /cmd_vel of our robot in the *keyboard_teleop.launch* file.
+
+Launch the gazebo and Rviz simulator with the following command:
+
+
+`roslaunch swarm_robot_gazebo two_wheel_robot.launch`
+
+`roslaunch swarm_robot_description swarm_robot_rviz.launch `
+
+Start the teleop node:
+
+`roslaunch swarm_robot_teleop_keyboard keyboard_teleop.launch`
+
+
+Start RViz to visualize the robot state:
+
+`rosrun rviz rviz`
+
+
 
 ## Spwan single URDF robot without launch file
 spwarn urdf of two wheel robot
