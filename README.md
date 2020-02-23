@@ -21,9 +21,13 @@ testing of swarm algorithms in gazebo simulation
 
 ### complining the package
 In new terminal 
+
 `mkdir -p ~/catkin_ws/src`
+
 `cd catkin_ws/src`
+
 `git clone https://github.com/Marslanali/swarm-gazebo-simulations.git`
+
 `catkin_make`
 
 
