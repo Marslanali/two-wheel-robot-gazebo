@@ -13,9 +13,18 @@ testing of swarm algorithms in gazebo simulation
 * **swarm_robot_gazebo** launches the model in the gazebo environment and contains different simulation worlds.
 
 
-## INSTALL ROS CONTROL FOR KINETIC
+## Install gazebo-ros control
 
 `sudo apt-get install ros-kinetic-gazebo-ros-pkgs ros-kinetic-gazebo-ros-control`
+
+
+
+### complining the package
+In new terminal 
+`mkdir -p ~/catkin_ws/src`
+`cd catkin_ws/src`
+`git clone https://github.com/Marslanali/swarm-gazebo-simulations.git`
+`catkin_make`
 
 
 ### Run the Models
