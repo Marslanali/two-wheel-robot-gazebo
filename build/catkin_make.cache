@@ -1,0 +1,2 @@
+swarm_robot_aggregation_simulation:swarm_robot_description:swarm_robot_gazebo:swarm_robot_teleop_keyboard
+-DCATKIN_DEVEL_PREFIX=/home/arslanali/swarm-gazebo-simulations/devel -DCMAKE_INSTALL_PREFIX=/home/arslanali/swarm-gazebo-simulations/install -G Unix Makefiles
