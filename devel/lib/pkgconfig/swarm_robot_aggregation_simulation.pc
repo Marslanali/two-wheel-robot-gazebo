@@ -1,8 +1,0 @@
-prefix=/home/arslanali/swarm-gazebo-simulations/devel
-
-Name: swarm_robot_aggregation_simulation
-Description: Description of swarm_robot_aggregation_simulation
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
