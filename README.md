@@ -54,7 +54,7 @@ angular:
 ```
 
 #### Running keyboard teleop:
-The ~/catkin_ws/src/swarm_robot_teleop_keyboard/scripts folder contains the *myrobot_key* node, which is the teleop node. Then a remapping is done from the turtlebot_teleop_keyboard/cmd_vel to /cmd_vel of our robot in the *keyboard_teleop.launch* file.
+The ~/catkin_ws/src/turtlebot3_teleop/nodes folder contains the *turtlebot3_teleop_key* node, which is the teleop node. 
 
 Launch the gazebo and Rviz simulator with the following command:
 
@@ -65,7 +65,7 @@ Launch the gazebo and Rviz simulator with the following command:
 
 Start the teleop node:
 
-`roslaunch swarm_robot_teleop_keyboard keyboard_teleop.launch`
+`roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch`
 
 
 Start RViz to visualize the robot state:
