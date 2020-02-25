@@ -11,7 +11,7 @@
       <wheelSeparation>0.4</wheelSeparation>
       <wheelDiameter>0.1</wheelDiameter>
       <torque>20</torque>
-      <commandTopic>cmd_vel</commandTopic>
+      <commandTopic>turtle1/cmd_vel</commandTopic>
       <odometryTopic>odom</odometryTopic>
       <odometryFrame>odom</odometryFrame>
       <robotBaseFrame>body_link</robotBaseFrame>
