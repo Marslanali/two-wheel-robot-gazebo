@@ -207,7 +207,5 @@ include_directories(
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 
-add_executable(two_wheel_robot_manager src/two_wheel_robot_manager.cpp)
-add_executable(two_wheel_robot_batch_add src/two_wheel_robot_batch_add.cpp)
-add_executable(two_wheel_robot_line_distribution src/two_wheel_robot_line_distribution.cpp)
+
 
