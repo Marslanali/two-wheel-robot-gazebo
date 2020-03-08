@@ -87,4 +87,9 @@ spwarn urdf of two wheel robot
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`rosservice call gazebo/delete_model '{model_name: two_wheel_robot}' `
 
 
+## Launching turtlebot play ground gazebo
+
+`roslaunch swarm_robot_gazebo rosbot_world.launch`
+
+
 If you face any difficulty, feel free to drop an email at arslanali800@hotmail.com
