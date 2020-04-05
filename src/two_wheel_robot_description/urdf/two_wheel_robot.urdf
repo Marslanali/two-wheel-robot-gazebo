@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 
 <robot name="two_wheel_robot">
+
   <gazebo>
     <plugin filename="libgazebo_ros_diff_drive.so" name="differential_drive_controller">
       <legacyMode>false</legacyMode>
@@ -17,6 +18,7 @@
       <robotBaseFrame>body_link</robotBaseFrame>
     </plugin>
   </gazebo>
+
   <gazebo reference="body_link">
     <material>Gazebo/black</material>
   </gazebo>
