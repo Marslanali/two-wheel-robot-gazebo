@@ -7,12 +7,10 @@ Repository for the simulation of two wheel robot simulation in Gazebo.
 * **two_wheel_robot_description** specifies the entire robot structure as links and joints and can launch the model.
 * **two_wheel_robot_gazebo** launches the model in the gazebo environment and contains different simulation worlds.
 
-
 ## Install gazebo-ros control
 ```
 sudo apt-get install ros-kinetic-gazebo-ros-pkgs ros-kinetic-gazebo-ros-control
 ```
-
 
 ### complining the package
 In new terminal
@@ -27,11 +25,9 @@ catkin_make
 ```
 
 ### Run the Models
-Load the Gazebo simulator and rviz in separate terminals using the following commands:
+Load the Gazebo simulator using the following command:
 ```
 roslaunch two_wheel_robot_gazebo two_wheel_robot.launch
-
-roslaunch two_wheel_robot_description two_wheel_robot_rviz.launch
 ```
 
 #### moving in a circle:
