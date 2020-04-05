@@ -4,7 +4,7 @@ Repository for the simulation of two wheel robot simulation in Gazebo.
 
 ### Brief Explanation
 
-* **two_wheel_robot_description** specifies the entire robot structure as links and joints and can launch the model in rviz.
+* **two_wheel_robot_description** specifies the entire robot structure as links and joints and can launch the model.
 * **two_wheel_robot_gazebo** launches the model in the gazebo environment and contains different simulation worlds.
 
 
@@ -51,23 +51,10 @@ angular:
 #### Running keyboard teleop:
 The ~/catkin_ws/src/turtlebot3_teleop/nodes folder contains the *turtlebot3_teleop_key* node, which is the teleop node.
 
-Launch the gazebo and Rviz simulator with the following command:
-
-```
-roslaunch two_wheel_robot_gazebo two_wheel_robot.launch
-
-roslaunch two_wheel_robot_description two_wheel_robot_rviz.launch
-```
 Start the teleop node:
 ```
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
-
-Start RViz to visualize the robot state:
-```
-rosrun rviz rviz
-```
-
 
 ## Spwan single URDF robot without launch file
 spwarn urdf of two wheel robot
@@ -84,5 +71,10 @@ rosservice call gazebo/delete_model '{model_name: two_wheel_robot}'
 ```
 roslaunch two_wheel_robot_gazebo rosbot_world.launch
 ```
+
+## Contribution
+
+## License
+See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
 
 If you face any difficulty, feel free to drop an email at arslanali800@hotmail.com
