@@ -1,6 +1,6 @@
 # two-wheel-robot-gazebo
 
-simulation of two wheel robot simulation in Gazebo.
+two wheel differential drive robot simulation in gazebo
 
 ### Brief Explanation
 
