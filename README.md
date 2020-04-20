@@ -73,4 +73,3 @@ roslaunch two_wheel_robot_gazebo rosbot_world.launch
 ## License
 See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
 
-If you face any difficulty, feel free to drop an email at arslanali800@hotmail.com
